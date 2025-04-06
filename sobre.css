@@ -1,0 +1,36 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 100vw;
+    display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      flex-flow: column nowrap;
+    background: url('https://wallpaperaccess.com/full/3037657.jpg') no-repeat center center/cover fixed;
+   
+}
+table, th, tr, td{
+    border: 2px black solid;
+}
+.table-wrapper {
+    overflow-x: auto;
+    width: 100%;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+tbody tr:nth-child(odd) {
+    background-color: beige;
+  }
+tbody tr:nth-child(even){
+    background-color: snow;
+}
+thead tr{
+    background-color: snow;
+}
+table{
+    margin-top: 100px;
+    opacity: 0.6;
+}
